@@ -5,7 +5,7 @@ body {
 #board {
     height: 330px;
     width: 320px;
-    background: #000000;
+    background: rgb(69, 69, 69);
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
@@ -41,4 +41,12 @@ body {
 
 .tile:nth-child(3n) {
     margin-right: 0;
+}
+
+.tile-child {
+    position: relative;
+}
+
+.tile-child>img {
+    height: 95px;
 }
